@@ -28,5 +28,9 @@ This will take all the pages in the sample.pptx and output all the icons into an
 And to grab all the icons that have poured into your `out` directory so they're available in a single PPT file, just:
 
 ```
-python restore.py
+(venv) johnmaeda~> python restore.py
 ```
+
+## Future improvements
+
+I'd like to handle SVGs in the future ...
