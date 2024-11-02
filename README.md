@@ -1,13 +1,6 @@
 # Extract PNG/TEXT pairs from a multi-page deck
 
 Simple way to get those annoying icon PNGs and associated text into your grateful hands from a PPTX file. So you can turn this:
-
-![](assets/myppt.png)
-
-Into this:
-
-![](assets/myfiles.png)
-
 ## Get your Python environment ready
 
 ```
