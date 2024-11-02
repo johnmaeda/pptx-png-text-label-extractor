@@ -1,6 +1,12 @@
-# pptx-png-text-label-extractor
+# Extract PNG/TEXT pairs from a multi-page deck
 
-Simple way to get those annoying icon PNGs and associated text into your grateful hands from a PPTX file
+Simple way to get those annoying icon PNGs and associated text into your grateful hands from a PPTX file. So you can turn this:
+
+![](assets/myppt.png)
+
+Into this:
+
+![](assets/myfiles.png)
 
 ## Get your Python environment ready
 
@@ -15,8 +21,8 @@ johnmaeda~> source venv/bin/activate
 This will take all the pages in the sample.pptx and output all the icons into an `out` directory. Take note that they need to be PNGs.
 
 ```
-python extract.py --help
-python extract.py sample.pptx
+(venv) johnmaeda~> python extract.py --help
+(venv) johnmaeda~> python extract.py sample.pptx
 ```
 
 And to grab all the icons that have poured into your `out` directory so they're available in a single PPT file, just:
